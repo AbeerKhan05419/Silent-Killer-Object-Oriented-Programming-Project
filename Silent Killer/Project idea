@@ -1,0 +1,13 @@
+ 
+OBJECT ORIENTED PROGRAMMING 
+Group Name: 
+SILENT KILLERS 
+Group Members:
+Abeer Khan
+Alisha Momin
+Lama Imam
+
+
+Project Idea: 
+We are designing a game using SDL and C++. Our game is called silent killer. Our game will have a welcome screen with instruction option as well as a high score tab and a play button. One you click on play game will start. Over a creepy backdrop at the bottom of the screen our player who is a zombie will be able to move left and right across the screen. The objective of the game is that the user has to move the player across the screen and dodge obstacles that will fall from the sky. Player health and score will be displayed on top right and top left of the screen. There will be 8 different obstacles that will either increase or decrease player health and the user has to dodge or absorb those obstacles respectively. The game will end if the Player runs out of all of its 10 lives or if it’s unable to doge our biggest obstacle, the silent killer, which will result in all player lives becoming zero and the game ending. Each time game ends high score will be updated.
+
