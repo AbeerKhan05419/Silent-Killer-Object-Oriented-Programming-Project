@@ -14,6 +14,7 @@
 #include "Axe.hpp"
 #include "Heart.hpp"
 #include "Blood.hpp"
+#include "music.hpp"
 #pragma once
 using namespace std;
 

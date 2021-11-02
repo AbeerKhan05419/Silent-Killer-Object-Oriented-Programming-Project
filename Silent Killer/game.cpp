@@ -45,7 +45,11 @@ bool Game::init()
 
 	return success;
 }
-
+void Game::writeText(std::string content, int fontSize, int xCo, int yCo, SDL_Color color)
+{
+	Text text(gRenderer, "font_text.ttf", fontSize, content, color);
+	text.display(xCo, yCo, gRenderer);
+}
 bool Game::loadMedia()
 {
 	bool success = true;
@@ -181,7 +185,7 @@ std:
 
 				int xMouse, yMouse;
 				SDL_GetMouseState(&xMouse, &yMouse);
-				// cout << xMouse << " " << yMouse << endl;
+				cout << xMouse << " " << yMouse << endl;
 				if (xMouse > 19 && xMouse < 85 && yMouse > 35 && yMouse < 128)
 				{
 					gTexture = loadTexture("menu.png");
@@ -202,6 +206,10 @@ std:
 			SDL_Delay(6);
 			s1.createObject();
 			s1.drawObjects();
+			writeText("Health", 40, 850, 80, {243, 225, 169});
+			writeText(to_string(s1.Health), 30, 870, 115, {0, 0, 0});
+			writeText("LifeLine", 40, 850, 10, {243, 225, 169});
+			writeText(to_string(s1.Lifeline), 30, 870, 50, {0, 0, 0});
 			// if player have life remaining then it will display winningscreen.jpg image and player will win the game
 			if (s1.Health >= 100 && s1.Lifeline >= 1)
 			{

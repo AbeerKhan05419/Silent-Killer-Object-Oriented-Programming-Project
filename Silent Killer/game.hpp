@@ -7,6 +7,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include "music.hpp"
+#include "text.hpp"
 // we took this file from hw3 and lazyfoo
 // added few things like home,instruction,highscore,quit screen and play screem
 class Game
@@ -24,6 +25,7 @@ class Game
 public:
     bool init();
     bool loadMedia();
+    void writeText(std::string content, int font, int xCo, int yCo, SDL_Color color);
     void close();
     SDL_Texture *loadTexture(std::string path);
     void run();

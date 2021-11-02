@@ -2,6 +2,7 @@
 #include "silentkiller.hpp"
 #include <stdlib.h>
 #include <SDL.h>
+#include "music.hpp"
 using namespace std;
 // this function will display the objects on screen and it will also check if the object has hit the bottom of the screen or it has collided with the zombie
 void Silentkiller::drawObjects()
