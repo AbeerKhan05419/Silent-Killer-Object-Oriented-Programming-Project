@@ -1,15 +1,14 @@
 #pragma once
 #include "text.hpp"
 
-// displays the text on screen
+// this function will display the text on the screen 
 void Text::display(int x, int y, SDL_Renderer *renderer) const
 {
     _text_rect.x = x;
     _text_rect.y = y;
     SDL_RenderCopy(renderer, _text_texture, nullptr, &_text_rect);
 }
-
-// this loads the font and customize it accordingly
+// loading of the fint size, color and it will also customize the stuff
 SDL_Texture *Text::loadFont(SDL_Renderer *renderer, const std::string &font_path, int font_size, const std::string &message_text, const SDL_Color &color)
 {
     TTF_Init();
