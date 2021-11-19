@@ -206,13 +206,9 @@ std:
 			SDL_Delay(6);
 			s1.createObject();
 			s1.drawObjects();
-			//health text on the top right of the screen 
 			writeText("Health", 40, 850, 80, {243, 225, 169});
-			//health number text on the top right of the screen 
 			writeText(to_string(s1.Health), 30, 870, 115, {0, 0, 0});
-			//lifeline text on the top right of the screen 
 			writeText("LifeLine", 40, 850, 10, {243, 225, 169});
-			//lifeline number text on the top right of the screen 
 			writeText(to_string(s1.Lifeline), 30, 870, 50, {0, 0, 0});
 			// if player have life remaining then it will display winningscreen.jpg image and player will win the game
 			if (s1.Health >= 100 && s1.Lifeline >= 1)

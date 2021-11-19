@@ -221,9 +221,11 @@ void Silentkiller::createObject()
     int b = rand() % 1000;
     if (b <= 5)
     {
+        
         if (a == 0)
         {
-            Slist.push_back(new Spider(rand() % 960, 0));
+            Slist.push_back(new Spider(510, 580));
+            // Slist.push_back(new Spider(rand() % 960, 0));
         }
         else if (a == 1)
         {
