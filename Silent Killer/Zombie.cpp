@@ -33,7 +33,7 @@ void Zombie::move(string direction)
     }
     if (direction == "left" && moverRect.x > 0)
     {
-        srcRect = {522, 53, 79, 153}; //this is the left side zombie sprite
+        srcRect = {483, 22, 168, 307}; //this is the left side zombie sprite
         moverRect.x -= 50;
     }
 }

@@ -7,7 +7,7 @@
 class Skull : public Enemy
 {
     SDL_Rect srcRect, moverRect;
-    SDL_Rect srcRect_0 = {79, 10, 35, 65};
+    SDL_Rect srcRect_0 = {57, 7, 25, 47};
 
 public:
     // this boolean function is used to detect the collision with bottom of the screen.

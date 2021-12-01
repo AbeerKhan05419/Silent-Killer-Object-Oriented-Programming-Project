@@ -7,7 +7,7 @@
 class Spider : public Enemy
 {
     SDL_Rect srcRect, moverRect;
-    SDL_Rect srcRect_0 = {9, 7, 62, 71};
+    SDL_Rect srcRect_0 = {6, 5, 45, 51};
 
 public:
     // this boolean function is used to detect the collision with bottom of the screen.

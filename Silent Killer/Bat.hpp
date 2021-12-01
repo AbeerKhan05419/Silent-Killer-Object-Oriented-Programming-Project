@@ -7,7 +7,7 @@
 class Bat : public Enemy
 {
     SDL_Rect srcRect, moverRect;
-    SDL_Rect srcRect_0 = {141, 62, 60, 42};
+    SDL_Rect srcRect_0 = {102, 45, 43, 30};
 
 public:
     // this boolean function is used to detect the collision with bottom of the screen.

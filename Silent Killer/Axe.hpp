@@ -7,7 +7,7 @@
 class Axe : public Enemy
 {
     SDL_Rect srcRect, moverRect;
-    SDL_Rect srcRect_0 = {98, 112, 88, 101};
+    SDL_Rect srcRect_0 = {71, 81, 63, 73};
 
 public:
     // this boolean function is used to detect the collision with bottom of the screen.

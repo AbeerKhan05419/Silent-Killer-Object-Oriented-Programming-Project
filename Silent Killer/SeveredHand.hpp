@@ -7,7 +7,7 @@
 class Severed_hand : public Lifesaver
 {
     SDL_Rect srcRect, moverRect;
-    SDL_Rect srcRect_0 = {11, 166, 44, 51};
+    SDL_Rect srcRect_0 = {8, 120, 32, 37};
 
 public:
     // this boolean function is used to detect the collision with bottom of the screen.

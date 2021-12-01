@@ -7,7 +7,7 @@
 class Heart : public Lifesaver
 {
     SDL_Rect srcRect, moverRect;
-    SDL_Rect srcRect_0 = {193, 136, 82, 69};
+    SDL_Rect srcRect_0 = {139, 98, 60, 49};
 
 public:
     // this boolean function is used to detect the collision with bottom of the screen.
@@ -19,3 +19,4 @@ public:
     Heart();                                        //empty constuctor
     Heart(int x, int y);                            //Constuctor with paramters
 };
+

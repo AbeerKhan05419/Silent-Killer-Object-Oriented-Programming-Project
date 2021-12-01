@@ -2,10 +2,11 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
 class Zombie
 {
     SDL_Rect srcRect, moverRect;
-    SDL_Rect srcRect_0 = {382, 52, 78, 154}; //right side zombie sprite
+    SDL_Rect srcRect_0 = {278, 17, 167, 307}; //right side zombie sprite
 
 public:
     void move(string direction);                    //player movement in left right direction

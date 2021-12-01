@@ -7,7 +7,7 @@
 class Wolf : public Enemy
 {
     SDL_Rect srcRect, moverRect;
-    SDL_Rect srcRect_0 = {225, 10, 89, 117};
+    SDL_Rect srcRect_0 = {162, 7, 64, 85};
 
 public:
     // this boolean function is used to detect the collision with bottom of the screen.

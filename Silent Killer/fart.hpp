@@ -6,10 +6,11 @@
 // As fart is an enemy (obstracle).
 // if the zombie collide with the fart it lifeline will be become zero.
 // if it doesnt collide with the zombie then the health will be increase by 1.
+
 class Fart : public Enemy
 {
     SDL_Rect srcRect, moverRect;
-    SDL_Rect srcRect_0 = {127, 7, 75, 48};
+    SDL_Rect srcRect_0 = {92, 5, 53, 35};
 
 public:
     // this boolean function is used to detect the collision with bottom of the screen.

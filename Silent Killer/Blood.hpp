@@ -7,7 +7,7 @@
 class Blood : public Lifesaver
 {
     SDL_Rect srcRect, moverRect;
-    SDL_Rect srcRect_0 = {292, 145, 61, 83};
+    SDL_Rect srcRect_0 = {211, 105, 44, 60};
 
 public:
     // this boolean function is used to detect the collision with bottom of the screen.
