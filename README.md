@@ -13,7 +13,7 @@ We are designing a game using C++ and an SDL library. Our game is called "Silent
 - The graphics were clean and free from artifacts.
 - Game include background and other sounds.
 - The controls were intuitive and the game was easy to play.
-- Inheritance, polymorphism and abstraction was used to good effect.
+- Inheritance, and abstraction was used to good effect.
 - Operator overloading was used properly.
 - All project requirements were met as mentioned in the UML.
 - The requirement of the image were met as instructed in the rubric document.
