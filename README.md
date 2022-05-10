@@ -11,7 +11,7 @@ We are designing a game using C++ and an SDL library. Our game is called "Silent
 - The code is properly commented.
 - The code is modular.
 - The graphics were clean and free from artifacts.
-- Game include background and other sounds.
+- Game include background and other sounds
 - The controls were intuitive and the game was easy to play.
 - Inheritance, and abstraction was used to good effect.
 - Operator overloading was used properly.
